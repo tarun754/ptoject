@@ -1,0 +1,44 @@
+img{
+width: 100%;
+height: 500px;
+border: none;
+}
+.row::after{
+content: "";
+clear: both;
+display:table;    
+    
+}
+.travel_maindiv{
+float: left;
+width: 33.33%;
+padding: 5px;
+border: 1px solid #c7c7c7;    
+}
+.travel_maindiv img{
+width: 100%;
+height:300px;
+    
+}
+.travel_maindiv hr{
+width: 100%;
+    
+}
+.travel_maindiv p, .travel_maindiv h5{
+margin-left: 20px;
+    
+}
+.ach-head{
+font-size: 20px;
+padding : 6px 22px;
+border-radius: 10px;
+margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+    
+}
+.ach-head i{
+    float:right;
+    
+}
+    
